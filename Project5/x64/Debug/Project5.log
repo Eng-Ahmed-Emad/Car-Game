@@ -1,0 +1,6 @@
+﻿  project.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(56,48): error C2381: 'exit': redefinition; 'noreturn' differs
+  (compiling source file 'project.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\gL\glut.h(146,29):
+      see declaration of 'exit'
+  
