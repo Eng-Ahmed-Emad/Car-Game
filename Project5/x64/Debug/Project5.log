@@ -1,6 +1,19 @@
 ﻿  project.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(56,48): error C2381: 'exit': redefinition; 'noreturn' differs
-  (compiling source file 'project.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\gL\glut.h(146,29):
-      see declaration of 'exit'
-  
+project.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+project.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+project.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+project.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+project.obj : error LNK2019: unresolved external symbol __imp_glutReshapeWindow referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+project.obj : error LNK2019: unresolved external symbol __imp_glutFullScreen referenced in function "void __cdecl keyboard(unsigned char,int,int)" (?keyboard@@YAXEHH@Z)
+project.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+project.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+project.obj : error LNK2019: unresolved external symbol __imp_glutSolidCube referenced in function "void __cdecl drawCarModel(float,float,float)" (?drawCarModel@@YAXMMM@Z)
+project.obj : error LNK2019: unresolved external symbol __imp_glutSolidTorus referenced in function "void __cdecl drawCarModel(float,float,float)" (?drawCarModel@@YAXMMM@Z)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\All Files\College\3omda Project Year3\CG_Project\3omda Project\x64\Debug\Project5.exe : fatal error LNK1120: 16 unresolved externals
